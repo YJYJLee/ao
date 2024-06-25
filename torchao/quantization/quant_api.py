@@ -44,7 +44,6 @@ from .GPTQ import (
 import logging
 from .autoquant import autoquant, AutoQuantizableLinearWeight
 
-
 __all__ = [
     "swap_conv2d_1x1_to_linear",
     "Quantizer",
